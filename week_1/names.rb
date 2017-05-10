@@ -23,7 +23,10 @@ def name
     e = {first_name: "Jennifer", last_name: "Smith"}
     names = [a, b, c, d, e]
     puts "You have " + names.count.to_s + " names in the 'names' array"
-    puts "The name is #{first_name} #{last_name}"
+    # puts "The name is (#{first_name} #{last_name}).each"
+    names.each do |person|
+        puts "The name is '#{person[:first_name]} #{person[:last_name]}'"
+    end
 end
 
 name
