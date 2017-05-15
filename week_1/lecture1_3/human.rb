@@ -9,7 +9,7 @@ class Human
 
     def talk
         puts "Hi I'm #{@name}"
-        self #method chaining enabled with this 
+        self #method chaining enabled with this
     end
 end
 
@@ -22,3 +22,7 @@ puts h2.name
 h1.name = "Sammi" # will change the h1.name
 puts h1.name
 h1.talk.talk.talk.talk # output - "Hi I'm Sammi"
+class Array
+    def do_something
+    end
+end 

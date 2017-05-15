@@ -46,7 +46,7 @@ class CodingDojo
     @branch_id = id
     @branch_name = name
     @branch_address = address
-    @@no_of_branches += 1 #class variable when there are 2 @ signs 
+    @@no_of_branches += 1 #class variable when there are 2 @ signs
     puts "Created branch #{@@no_of_branches}"
   end
   def hello
