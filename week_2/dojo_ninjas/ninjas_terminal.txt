@@ -1,0 +1,785 @@
+C:\Users\Sammi\Desktop\DojoAssignments\Ruby\week_2\my_app>cd ..
+
+C:\Users\Sammi\Desktop\DojoAssignments\Ruby\week_2>rails new dojo_ninjas
+      create
+      create  README.md
+      create  Rakefile
+      create  config.ru
+      create  .gitignore
+      create  Gemfile
+         run  git init from "."
+Initialized empty Git repository in C:/Users/Sammi/Desktop/DojoAssignments/Ruby/week_2/dojo_ninjas/.git/
+      create  app
+      create  app/assets/config/manifest.js
+      create  app/assets/javascripts/application.js
+      create  app/assets/javascripts/cable.js
+      create  app/assets/stylesheets/application.css
+      create  app/channels/application_cable/channel.rb
+      create  app/channels/application_cable/connection.rb
+      create  app/controllers/application_controller.rb
+      create  app/helpers/application_helper.rb
+      create  app/jobs/application_job.rb
+      create  app/mailers/application_mailer.rb
+      create  app/models/application_record.rb
+      create  app/views/layouts/application.html.erb
+      create  app/views/layouts/mailer.html.erb
+      create  app/views/layouts/mailer.text.erb
+      create  app/assets/images/.keep
+      create  app/assets/javascripts/channels
+      create  app/assets/javascripts/channels/.keep
+      create  app/controllers/concerns/.keep
+      create  app/models/concerns/.keep
+      create  bin
+      create  bin/bundle
+      create  bin/rails
+      create  bin/rake
+      create  bin/setup
+      create  bin/update
+      create  bin/yarn
+      create  config
+      create  config/routes.rb
+      create  config/application.rb
+      create  config/environment.rb
+      create  config/secrets.yml
+      create  config/cable.yml
+      create  config/puma.rb
+      create  config/environments
+      create  config/environments/development.rb
+      create  config/environments/production.rb
+      create  config/environments/test.rb
+      create  config/initializers
+      create  config/initializers/application_controller_renderer.rb
+      create  config/initializers/assets.rb
+      create  config/initializers/backtrace_silencers.rb
+      create  config/initializers/cookies_serializer.rb
+      create  config/initializers/cors.rb
+      create  config/initializers/filter_parameter_logging.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/initializers/new_framework_defaults_5_1.rb
+      create  config/initializers/wrap_parameters.rb
+      create  config/locales
+      create  config/locales/en.yml
+      create  config/boot.rb
+      create  config/database.yml
+      create  db
+      create  db/seeds.rb
+      create  lib
+      create  lib/tasks
+      create  lib/tasks/.keep
+      create  lib/assets
+      create  lib/assets/.keep
+      create  log
+      create  log/.keep
+      create  public
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/apple-touch-icon-precomposed.png
+      create  public/apple-touch-icon.png
+      create  public/favicon.ico
+      create  public/robots.txt
+      create  test/fixtures
+      create  test/fixtures/.keep
+      create  test/fixtures/files
+      create  test/fixtures/files/.keep
+      create  test/controllers
+      create  test/controllers/.keep
+      create  test/mailers
+      create  test/mailers/.keep
+      create  test/models
+      create  test/models/.keep
+      create  test/helpers
+      create  test/helpers/.keep
+      create  test/integration
+      create  test/integration/.keep
+      create  test/test_helper.rb
+      create  test/system
+      create  test/system/.keep
+      create  test/application_system_test_case.rb
+      create  tmp
+      create  tmp/.keep
+      create  tmp/cache
+      create  tmp/cache/assets
+      create  vendor
+      create  vendor/.keep
+      create  package.json
+      remove  config/initializers/cors.rb
+      remove  config/initializers/new_framework_defaults_5_1.rb
+         run  bundle install
+Fetching gem metadata from https://rubygems.org/...........
+Fetching version metadata from https://rubygems.org/...
+Fetching dependency metadata from https://rubygems.org/..
+Resolving dependencies...
+Using rake 12.0.0
+Using concurrent-ruby 1.0.5
+Using i18n 0.8.1
+Using minitest 5.10.2
+Using thread_safe 0.3.6
+Using builder 3.2.3
+Using erubi 1.6.0
+Using mini_portile2 2.1.0
+Using rack 2.0.3
+Using nio4r 2.0.0
+Using websocket-extensions 0.1.2
+Using mime-types-data 3.2016.0521
+Using arel 8.0.0
+Using public_suffix 2.0.5
+Using bindex 0.5.0
+Using bundler 1.13.7
+Using byebug 9.0.6
+Using ffi 1.9.18
+Using coffee-script-source 1.12.2
+Using execjs 2.7.0
+Using method_source 0.8.2
+Using thor 0.19.4
+Using multi_json 1.12.1
+Using puma 3.8.2
+Using rubyzip 1.2.1
+Using sass 3.4.23
+Using tilt 2.0.7
+Using websocket 1.2.4
+Using sqlite3 1.3.13
+Using turbolinks-source 5.0.3
+Using tzinfo 1.2.3
+Using nokogiri 1.7.2
+Using rack-test 0.6.3
+Using sprockets 3.7.1
+Using websocket-driver 0.6.5
+Using mime-types 3.1
+Using addressable 2.5.1
+Using childprocess 0.7.0
+Using coffee-script 2.4.1
+Using uglifier 3.2.0
+Using turbolinks 5.0.1
+Using activesupport 5.1.1
+Using tzinfo-data 1.2017.2
+Using loofah 2.0.3
+Using xpath 2.0.0
+Using mail 2.6.5
+Using selenium-webdriver 3.4.0
+Using rails-dom-testing 2.0.3
+Using globalid 0.4.0
+Using activemodel 5.1.1
+Using jbuilder 2.6.4
+Using rails-html-sanitizer 1.0.3
+Using capybara 2.14.0
+Using activejob 5.1.1
+Using activerecord 5.1.1
+Using actionview 5.1.1
+Using actionpack 5.1.1
+Using actioncable 5.1.1
+Using actionmailer 5.1.1
+Using railties 5.1.1
+Using sprockets-rails 3.2.0
+Using coffee-rails 4.2.1
+Using web-console 3.5.1
+Using rails 5.1.1
+Using sass-rails 5.0.6
+Bundle complete! 13 Gemfile dependencies, 65 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+
+C:\Users\Sammi\Desktop\DojoAssignments\Ruby\week_2>cd dojo_ninjas
+
+C:\Users\Sammi\Desktop\DojoAssignments\Ruby\week_2\dojo_ninjas>rails g model Dojo name:string city:string state:string
+      invoke  active_record
+      create    db/migrate/20170517020456_create_dojos.rb
+      create    app/models/dojo.rb
+      invoke    test_unit
+      create      test/models/dojo_test.rb
+      create      test/fixtures/dojos.yml
+
+C:\Users\Sammi\Desktop\DojoAssignments\Ruby\week_2\dojo_ninjas>rake db:migrate
+== 20170517020456 CreateDojos: migrating ======================================
+-- create_table(:dojos)
+   -> 0.0019s
+== 20170517020456 CreateDojos: migrated (0.0033s) =============================
+
+
+C:\Users\Sammi\Desktop\DojoAssignments\Ruby\week_2\dojo_ninjas>rails g model Ninja first_name:string last_name:string dojo:references
+      invoke  active_record
+      create    db/migrate/20170517020538_create_ninjas.rb
+      create    app/models/ninja.rb
+      invoke    test_unit
+      create      test/models/ninja_test.rb
+      create      test/fixtures/ninjas.yml
+
+C:\Users\Sammi\Desktop\DojoAssignments\Ruby\week_2\dojo_ninjas>rake db:migrate
+== 20170517020538 CreateNinjas: migrating =====================================
+-- create_table(:ninjas)
+   -> 0.0038s
+== 20170517020538 CreateNinjas: migrated (0.0052s) ============================
+
+
+C:\Users\Sammi\Desktop\DojoAssignments\Ruby\week_2\dojo_ninjas>rails c
+Loading development environment (Rails 5.1.1)
+<:"CodingDojo Silicon Valley", city:"Mountain View", state:"CA")
+   (0.0ms)  begin transaction
+  SQL (1.0ms)  INSERT INTO "dojos" ("name", "city", "state", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "CodingDojo Silicon Valley"], ["city", "Mountain View"], ["state", "CA"], ["created_at", "2017-05-17 02:07:32.766151"], ["updated_at", "2017-05-17 02:07:32.766151"]]
+   (64.2ms)  commit transaction
+=> #<Dojo id: 1, name: "CodingDojo Silicon Valley", city: "Mountain View", state: "CA", created_at: "2017-05-17 02:07:32", updated_at: "2017-05-17 02:07:32">
+irb(main):002:0> Dojo.create(name:"CodingDojo Settle", city:"Seattle", state: "WA")
+   (1.0ms)  begin transaction
+  SQL (1.0ms)  INSERT INTO "dojos" ("name", "city", "state", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "CodingDojo Settle"], ["city", "Seattle"], ["state", "WA"], ["created_at", "2017-05-17 02:08:09.482423"], ["updated_at", "2017-05-17 02:08:09.482423"]]
+   (79.3ms)  commit transaction
+=> #<Dojo id: 2, name: "CodingDojo Settle", city: "Seattle", state: "WA", created_at: "2017-05-17 02:08:09", updated_at: "2017-05-17 02:08:09">
+irb(main):003:0> Dojo.create(name:"CodingDojo New York", city:"New York", state:"NY")
+   (0.0ms)  begin transaction
+  SQL (1.0ms)  INSERT INTO "dojos" ("name", "city", "state", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "CodingDojo New York"], ["city", "New York"], ["state", "NY"], ["created_at", "2017-05-17 02:08:27.499640"], ["updated_at", "2017-05-17 02:08:27.499640"]]
+   (67.1ms)  commit transaction
+=> #<Dojo id: 3, name: "CodingDojo New York", city: "New York", state: "NY", created_at: "2017-05-17 02:08:27", updated_at: "2017-05-17 02:08:27">
+irb(main):004:0> Dojo.all
+  Dojo Load (0.0ms)  SELECT  "dojos".* FROM "dojos" LIMIT ?  [["LIMIT", 11]]
+=> #<ActiveRecord::Relation [#<Dojo id: 1, name: "CodingDojo Silicon Valley", city: "Mountain View", state: "CA", created_at: "2017-05-17 02:07:32", updated_at: "2017-05-17 02:07:32">, #<Dojo id: 2, name: "CodingDojo Settle", city: "Seattle", state: "WA", created_at: "2017-05-17 02:08:09", updated_at: "2017-05-17 02:08:09">, #<Dojo id: 3, name: "CodingDojo New York", city: "New York", state: "NY", created_at: "2017-05-17 02:08:27", updated_at: "2017-05-17 02:08:27">]>
+irb(main):005:0> Hirb.enable
+NameError: uninitialized constant Hirb
+        from (irb):5
+irb(main):006:0> exit
+
+C:\Users\Sammi\Desktop\DojoAssignments\Ruby\week_2\dojo_ninjas>dojo console
+'dojo' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Sammi\Desktop\DojoAssignments\Ruby\week_2\dojo_ninjas>rails console
+Loading development environment (Rails 5.1.1)
+irb(main):001:0> hirb.enable
+NameError: undefined local variable or method `hirb' for main:Object
+Did you mean?  irb
+        from (irb):1
+irb(main):002:0> Hirb.enable
+=> true
+irb(main):003:0> Dojo.all
+  Dojo Load (2.0ms)  SELECT "dojos".* FROM "dojos"
++----+---------------------+---------------+-------+---------------------+---------------------+
+| id | name                | city          | state | created_at          | updated_at          |
++----+---------------------+---------------+-------+---------------------+---------------------+
+| 1  | CodingDojo Silic... | Mountain View | CA    | 2017-05-17 02:07... | 2017-05-17 02:07... |
+| 2  | CodingDojo Settle   | Seattle       | WA    | 2017-05-17 02:08... | 2017-05-17 02:08... |
+| 3  | CodingDojo New York | New York      | NY    | 2017-05-17 02:08... | 2017-05-17 02:08... |
++----+---------------------+---------------+-------+---------------------+---------------------+
+3 rows in set
+irb(main):004:0> reload!
+Reloading...
+=> true
+irb(main):005:0> Dojo.new
+ArgumentError: Range unspecified. Specify the :in, :within, :maximum, :minimum, or :is option.
+        from app/models/dojo.rb:3:in `<class:Dojo>'
+        from app/models/dojo.rb:1:in `<top (required)>'
+        from (irb):5
+irb(main):006:0> d = Dojo.new
+ArgumentError: Range unspecified. Specify the :in, :within, :maximum, :minimum, or :is option.
+        from app/models/dojo.rb:3:in `<class:Dojo>'
+        from app/models/dojo.rb:1:in `<top (required)>'
+        from (irb):6
+irb(main):007:0> d = Dojo.new
+ArgumentError: :in and :within must be a Range
+        from app/models/dojo.rb:3:in `<class:Dojo>'
+        from app/models/dojo.rb:1:in `<top (required)>'
+        from (irb):7
+irb(main):008:0> reload!
+Reloading...
+=> true
+irb(main):009:0> d = Dojo.new
+ArgumentError: :in and :within must be a Range
+        from app/models/dojo.rb:3:in `<class:Dojo>'
+        from app/models/dojo.rb:1:in `<top (required)>'
+        from (irb):9
+irb(main):010:0> reload!
+Reloading...
+=> true
+irb(main):011:0> d = Dojo.new
++----+------+------+-------+------------+------------+
+| id | name | city | state | created_at | updated_at |
++----+------+------+-------+------------+------------+
+|    |      |      |       |            |            |
++----+------+------+-------+------------+------------+
+1 row in set
+irb(main):012:0> d.valid?
+=> false
+irb(main):013:0> d.save
+   (0.0ms)  begin transaction
+   (0.0ms)  rollback transaction
+=> false
+irb(main):014:0> d.errors
+=> #<ActiveModel::Errors:0x41dda70 @base=#<Dojo id: nil, name: nil, city: nil, state: nil, created_at: nil, updated_at: nil>, @messages={:name=>["can't be blank"], :city=>["can't be blank"], :state=>["can't be blank", "is the wrong length (should be 2 characters)"]}, @details={:name=>[{:error=>:blank}], :city=>[{:error=>:blank}], :state=>[{:error=>:blank}, {:error=>:wrong_length, :count=>2}]}>
+irb(main):015:0> d.errors.full_messages
+=> ["Name can't be blank", "City can't be blank", "State can't be blank", "State is the wrong length (should be 2 characters)"]
+irb(main):016:0> Dojo.find(1).destroy
+  Dojo Load (1.0ms)  SELECT  "dojos".* FROM "dojos" WHERE "dojos"."id" = ? LIMIT ?  [["id", 1], ["LIMIT", 1]]
+   (0.5ms)  begin transaction
+  SQL (1.0ms)  DELETE FROM "dojos" WHERE "dojos"."id" = ?  [["id", 1]]
+   (61.8ms)  commit transaction
++----+---------------------+---------------+-------+---------------------+---------------------+
+| id | name                | city          | state | created_at          | updated_at          |
++----+---------------------+---------------+-------+---------------------+---------------------+
+| 1  | CodingDojo Silic... | Mountain View | CA    | 2017-05-17 02:07... | 2017-05-17 02:07... |
++----+---------------------+---------------+-------+---------------------+---------------------+
+1 row in set
+irb(main):017:0> Dojo.destroy_all
+  Dojo Load (1.0ms)  SELECT "dojos".* FROM "dojos"
+   (0.0ms)  begin transaction
+  SQL (1.0ms)  DELETE FROM "dojos" WHERE "dojos"."id" = ?  [["id", 2]]
+   (78.8ms)  commit transaction
+   (0.0ms)  begin transaction
+  SQL (1.4ms)  DELETE FROM "dojos" WHERE "dojos"."id" = ?  [["id", 3]]
+   (69.5ms)  commit transaction
++----+---------------------+----------+-------+-----------------------+------------------------+
+| id | name                | city     | state | created_at            | updated_at             |
++----+---------------------+----------+-------+-----------------------+------------------------+
+| 2  | CodingDojo Settle   | Seattle  | WA    | 2017-05-17 02:08:0... | 2017-05-17 02:08:09... |
+| 3  | CodingDojo New York | New York | NY    | 2017-05-17 02:08:2... | 2017-05-17 02:08:27... |
++----+---------------------+----------+-------+-----------------------+------------------------+
+2 rows in set
+irb(main):018:0> Dojo.all
+  Dojo Load (1.0ms)  SELECT "dojos".* FROM "dojos"
+=> #<ActiveRecord::Relation []>
+irb(main):019:0> d = Dojo.new(name:"CodingDojo Chicago", city: "Chicago", State: "IL")
+ActiveModel::UnknownAttributeError: unknown attribute 'State' for Dojo.
+        from (irb):19
+irb(main):020:0> d = Dojo.new(name:"CodingDojo Chicago", city: "Chicago", state: "IL")
++----+--------------------+---------+-------+------------+------------+
+| id | name               | city    | state | created_at | updated_at |
++----+--------------------+---------+-------+------------+------------+
+|    | CodingDojo Chicago | Chicago | IL    |            |            |
++----+--------------------+---------+-------+------------+------------+
+1 row in set
+irb(main):021:0> d.save
+   (0.0ms)  begin transaction
+  SQL (2.0ms)  INSERT INTO "dojos" ("name", "city", "state", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "CodingDojo Chicago"], ["city", "Chicago"], ["state", "IL"], ["created_at", "2017-05-17 02:16:23.401220"], ["updated_at", "2017-05-17 02:16:23.401220"]]
+   (72.9ms)  commit transaction
+=> true
+irb(main):022:0> Dojo.all
+  Dojo Load (0.0ms)  SELECT "dojos".* FROM "dojos"
++----+--------------------+---------+-------+------------------------+-------------------------+
+| id | name               | city    | state | created_at             | updated_at              |
++----+--------------------+---------+-------+------------------------+-------------------------+
+| 4  | CodingDojo Chicago | Chicago | IL    | 2017-05-17 02:16:23... | 2017-05-17 02:16:23 UTC |
++----+--------------------+---------+-------+------------------------+-------------------------+
+1 row in set
+<e:"CodingDojo Washington D.C.", city: "Washington", state: "DC")
++----+----------------------------+------------+-------+------------+------------+
+| id | name                       | city       | state | created_at | updated_at |
++----+----------------------------+------------+-------+------------+------------+
+|    | CodingDojo Washington D.C. | Washington | DC    |            |            |
++----+----------------------------+------------+-------+------------+------------+
+1 row in set
+irb(main):024:0> a.save
+   (0.5ms)  begin transaction
+  SQL (1.5ms)  INSERT INTO "dojos" ("name", "city", "state", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "CodingDojo Washington D.C."], ["city", "Washington"], ["state", "DC"], ["created_at", "2017-05-17 02:17:36.906195"], ["updated_at", "2017-05-17 02:17:36.906195"]]
+   (75.6ms)  commit transaction
+=> true
+irb(main):025:0> b = Dojo.new(name:"CodingDojo Dallas", city:"Dallas", state:"TX")
++----+-------------------+--------+-------+------------+------------+
+| id | name              | city   | state | created_at | updated_at |
++----+-------------------+--------+-------+------------+------------+
+|    | CodingDojo Dallas | Dallas | TX    |            |            |
++----+-------------------+--------+-------+------------+------------+
+1 row in set
+irb(main):026:0> b.save
+   (1.0ms)  begin transaction
+  SQL (2.0ms)  INSERT INTO "dojos" ("name", "city", "state", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "CodingDojo Dallas"], ["city", "Dallas"], ["state", "TX"], ["created_at", "2017-05-17 02:18:03.499084"], ["updated_at", "2017-05-17 02:18:03.499084"]]
+   (67.9ms)  commit transaction
+=> true
+irb(main):027:0> Dojo.all
+  Dojo Load (0.0ms)  SELECT "dojos".* FROM "dojos"
++----+----------------------+------------+-------+----------------------+----------------------+
+| id | name                 | city       | state | created_at           | updated_at           |
++----+----------------------+------------+-------+----------------------+----------------------+
+| 4  | CodingDojo Chicago   | Chicago    | IL    | 2017-05-17 02:16:... | 2017-05-17 02:16:... |
+| 5  | CodingDojo Washin... | Washington | DC    | 2017-05-17 02:17:... | 2017-05-17 02:17:... |
+| 6  | CodingDojo Dallas    | Dallas     | TX    | 2017-05-17 02:18:... | 2017-05-17 02:18:... |
++----+----------------------+------------+-------+----------------------+----------------------+
+3 rows in set
+irb(main):028:0> Dojo.create(name:"test name")
+   (1.0ms)  begin transaction
+   (0.0ms)  rollback transaction
++----+-----------+------+-------+------------+------------+
+| id | name      | city | state | created_at | updated_at |
++----+-----------+------+-------+------------+------------+
+|    | test name |      |       |            |            |
++----+-----------+------+-------+------------+------------+
+1 row in set
+irb(main):029:0> errors
+NameError: undefined local variable or method `errors' for main:Object
+        from (irb):29
+irb(main):030:0> x = Dojo.new(name: "Dojo)
+irb(main):031:1" "
+irb(main):032:1> x = Dojo.new(name: "Dojo")
+irb(main):033:1> x = Dojo.new(name: "Dojo")
+irb(main):034:1>
+irb(main):035:1*
+irb(main):036:1* exit
+irb(main):037:1> exit
+irb(main):038:1> exit
+irb(main):039:1> Dojo.all
+irb(main):040:1> )).
+irb(main):041:-1*
+irb(main):042:-1* Dojo.all
+SyntaxError: (irb):32: syntax error, unexpected tIDENTIFIER, expecting ')'
+x = Dojo.new(name: "Dojo")
+ ^
+(irb):40: syntax error, unexpected ')', expecting end-of-input
+
+irb(main):043:0> exit
+
+C:\Users\Sammi\Desktop\DojoAssignments\Ruby\week_2\dojo_ninjas>rails console
+Loading development environment (Rails 5.1.1)
+irb(main):001:0> x = Dojo.new(name: "Dojo")
+=> #<Dojo id: nil, name: "Dojo", city: nil, state: nil, created_at: nil, updated_at: nil>
+irb(main):002:0> Hirb.enable
+=> true
+irb(main):003:0> x.valid?
+=> false
+irb(main):004:0> x.errors
+=> #<ActiveModel::Errors:0x727f518 @base=#<Dojo id: nil, name: "Dojo", city: nil, state: nil, created_at: nil, updated_at: nil>, @messages={:city=>["can't be blank"], :state=>["can't be blank", "is the wrong length (should be 2 characters)"]}, @details={:city=>[{:error=>:blank}], :state=>[{:error=>:blank}, {:error=>:wrong_length, :count=>2}]}>
+irb(main):005:0> x.errors.full_messages
+=> ["City can't be blank", "State can't be blank", "State is the wrong length (should be 2 characters)"]
+irb(main):006:0> Dojo.all
+  Dojo Load (0.0ms)  SELECT "dojos".* FROM "dojos"
++----+----------------------+------------+-------+----------------------+----------------------+
+| id | name                 | city       | state | created_at           | updated_at           |
++----+----------------------+------------+-------+----------------------+----------------------+
+| 4  | CodingDojo Chicago   | Chicago    | IL    | 2017-05-17 02:16:... | 2017-05-17 02:16:... |
+| 5  | CodingDojo Washin... | Washington | DC    | 2017-05-17 02:17:... | 2017-05-17 02:17:... |
+| 6  | CodingDojo Dallas    | Dallas     | TX    | 2017-05-17 02:18:... | 2017-05-17 02:18:... |
++----+----------------------+------------+-------+----------------------+----------------------+
+3 rows in set
+irb(main):007:0> Ninja.create(first_name:"Steve", last_name:"Kaufman", dojo.Dojofirst)
+SyntaxError: (irb):7: syntax error, unexpected ')', expecting =>
+
+irb(main):008:0> Ninja.create(first_name:"Steve", last_name:"Kaufman", dojo:Dojofirst)
+NameError: uninitialized constant Dojofirst
+        from (irb):8
+irb(main):009:0> Ninja.create(first_name:"Steve", last_name:"Kaufman", dojo:Dojo.first)
+  Dojo Load (1.0ms)  SELECT  "dojos".* FROM "dojos" ORDER BY "dojos"."id" ASC LIMIT ?  [["LIMIT", 1]]
+   (0.0ms)  begin transaction
+  SQL (1.3ms)  INSERT INTO "ninjas" ("first_name", "last_name", "dojo_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["first_name", "Steve"], ["last_name", "Kaufman"], ["dojo_id", 4], ["created_at", "2017-05-17 02:25:16.185429"], ["updated_at", "2017-05-17 02:25:16.185429"]]
+   (84.7ms)  commit transaction
++----+------------+-----------+---------+-------------------------+-------------------------+
+| id | first_name | last_name | dojo_id | created_at              | updated_at              |
++----+------------+-----------+---------+-------------------------+-------------------------+
+| 1  | Steve      | Kaufman   | 4       | 2017-05-17 02:25:16 UTC | 2017-05-17 02:25:16 UTC |
++----+------------+-----------+---------+-------------------------+-------------------------+
+1 row in set
+irb(main):010:0> Ninja.create(first_name:"Sammi", last_name:"Kaufman", dojo:Dojo.first)
+  Dojo Load (1.0ms)  SELECT  "dojos".* FROM "dojos" ORDER BY "dojos"."id" ASC LIMIT ?  [["LIMIT", 1]]
+   (0.0ms)  begin transaction
+  SQL (1.0ms)  INSERT INTO "ninjas" ("first_name", "last_name", "dojo_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["first_name", "Sammi"], ["last_name", "Kaufman"], ["dojo_id", 4], ["created_at", "2017-05-17 02:25:32.779608"], ["updated_at", "2017-05-17 02:25:32.779608"]]
+   (82.4ms)  commit transaction
++----+------------+-----------+---------+-------------------------+-------------------------+
+| id | first_name | last_name | dojo_id | created_at              | updated_at              |
++----+------------+-----------+---------+-------------------------+-------------------------+
+| 2  | Sammi      | Kaufman   | 4       | 2017-05-17 02:25:32 UTC | 2017-05-17 02:25:32 UTC |
++----+------------+-----------+---------+-------------------------+-------------------------+
+1 row in set
+irb(main):011:0> Ninja.create(first_name:"Walter", last_name:"Kaufman", dojo:Dojo.first)
+  Dojo Load (0.0ms)  SELECT  "dojos".* FROM "dojos" ORDER BY "dojos"."id" ASC LIMIT ?  [["LIMIT", 1]]
+   (0.0ms)  begin transaction
+  SQL (1.1ms)  INSERT INTO "ninjas" ("first_name", "last_name", "dojo_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["first_name", "Walter"], ["last_name", "Kaufman"], ["dojo_id", 4], ["created_at", "2017-05-17 02:25:39.451972"], ["updated_at", "2017-05-17 02:25:39.451972"]]
+   (71.7ms)  commit transaction
++----+------------+-----------+---------+-------------------------+-------------------------+
+| id | first_name | last_name | dojo_id | created_at              | updated_at              |
++----+------------+-----------+---------+-------------------------+-------------------------+
+| 3  | Walter     | Kaufman   | 4       | 2017-05-17 02:25:39 UTC | 2017-05-17 02:25:39 UTC |
++----+------------+-----------+---------+-------------------------+-------------------------+
+1 row in set
+irb(main):012:0> Ninja.create(first_name:"Sally", last_name:"Smith", dojo:Dojo.second)
+  Dojo Load (0.0ms)  SELECT  "dojos".* FROM "dojos" ORDER BY "dojos"."id" ASC LIMIT ? OFFSET ?  [["LIMIT", 1], ["OFFSET", 1]]
+   (0.0ms)  begin transaction
+  SQL (2.0ms)  INSERT INTO "ninjas" ("first_name", "last_name", "dojo_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["first_name", "Sally"], ["last_name", "Smith"], ["dojo_id", 5], ["created_at", "2017-05-17 02:25:52.668011"], ["updated_at", "2017-05-17 02:25:52.668011"]]
+   (92.8ms)  commit transaction
++----+------------+-----------+---------+-------------------------+-------------------------+
+| id | first_name | last_name | dojo_id | created_at              | updated_at              |
++----+------------+-----------+---------+-------------------------+-------------------------+
+| 4  | Sally      | Smith     | 5       | 2017-05-17 02:25:52 UTC | 2017-05-17 02:25:52 UTC |
++----+------------+-----------+---------+-------------------------+-------------------------+
+1 row in set
+irb(main):013:0> Ninja.create(first_name:"Susie", last_name:"Smith", dojo:Dojo.second)
+  Dojo Load (1.0ms)  SELECT  "dojos".* FROM "dojos" ORDER BY "dojos"."id" ASC LIMIT ? OFFSET ?  [["LIMIT", 1], ["OFFSET", 1]]
+   (0.0ms)  begin transaction
+  SQL (1.0ms)  INSERT INTO "ninjas" ("first_name", "last_name", "dojo_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["first_name", "Susie"], ["last_name", "Smith"], ["dojo_id", 5], ["created_at", "2017-05-17 02:25:58.633640"], ["updated_at", "2017-05-17 02:25:58.633640"]]
+   (61.3ms)  commit transaction
++----+------------+-----------+---------+-------------------------+-------------------------+
+| id | first_name | last_name | dojo_id | created_at              | updated_at              |
++----+------------+-----------+---------+-------------------------+-------------------------+
+| 5  | Susie      | Smith     | 5       | 2017-05-17 02:25:58 UTC | 2017-05-17 02:25:58 UTC |
++----+------------+-----------+---------+-------------------------+-------------------------+
+1 row in set
+irb(main):014:0> Ninja.create(first_name:"Georgie", last_name:"Smith", dojo:Dojo.second)
+  Dojo Load (0.0ms)  SELECT  "dojos".* FROM "dojos" ORDER BY "dojos"."id" ASC LIMIT ? OFFSET ?  [["LIMIT", 1], ["OFFSET", 1]]
+   (0.0ms)  begin transaction
+  SQL (1.0ms)  INSERT INTO "ninjas" ("first_name", "last_name", "dojo_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["first_name", "Georgie"], ["last_name", "Smith"], ["dojo_id", 5], ["created_at", "2017-05-17 02:26:04.780441"], ["updated_at", "2017-05-17 02:26:04.780441"]]
+   (67.9ms)  commit transaction
++----+------------+-----------+---------+-------------------------+-------------------------+
+| id | first_name | last_name | dojo_id | created_at              | updated_at              |
++----+------------+-----------+---------+-------------------------+-------------------------+
+| 6  | Georgie    | Smith     | 5       | 2017-05-17 02:26:04 UTC | 2017-05-17 02:26:04 UTC |
++----+------------+-----------+---------+-------------------------+-------------------------+
+1 row in set
+irb(main):015:0> Ninja.create(first_name:"Jill", last_name:"Jones", dojo:Dojo.third)
+  Dojo Load (0.0ms)  SELECT  "dojos".* FROM "dojos" ORDER BY "dojos"."id" ASC LIMIT ? OFFSET ?  [["LIMIT", 1], ["OFFSET", 2]]
+   (0.0ms)  begin transaction
+  SQL (2.0ms)  INSERT INTO "ninjas" ("first_name", "last_name", "dojo_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["first_name", "Jill"], ["last_name", "Jones"], ["dojo_id", 6], ["created_at", "2017-05-17 02:26:16.748412"], ["updated_at", "2017-05-17 02:26:16.748412"]]
+   (81.2ms)  commit transaction
++----+------------+-----------+---------+-------------------------+-------------------------+
+| id | first_name | last_name | dojo_id | created_at              | updated_at              |
++----+------------+-----------+---------+-------------------------+-------------------------+
+| 7  | Jill       | Jones     | 6       | 2017-05-17 02:26:16 UTC | 2017-05-17 02:26:16 UTC |
++----+------------+-----------+---------+-------------------------+-------------------------+
+1 row in set
+irb(main):016:0> Ninja.create(first_name:"Jack", last_name:"Jones", dojo:Dojo.third)
+  Dojo Load (0.5ms)  SELECT  "dojos".* FROM "dojos" ORDER BY "dojos"."id" ASC LIMIT ? OFFSET ?  [["LIMIT", 1], ["OFFSET", 2]]
+   (0.0ms)  begin transaction
+  SQL (1.2ms)  INSERT INTO "ninjas" ("first_name", "last_name", "dojo_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["first_name", "Jack"], ["last_name", "Jones"], ["dojo_id", 6], ["created_at", "2017-05-17 02:26:22.284433"], ["updated_at", "2017-05-17 02:26:22.284433"]]
+   (69.2ms)  commit transaction
++----+------------+-----------+---------+-------------------------+-------------------------+
+| id | first_name | last_name | dojo_id | created_at              | updated_at              |
++----+------------+-----------+---------+-------------------------+-------------------------+
+| 8  | Jack       | Jones     | 6       | 2017-05-17 02:26:22 UTC | 2017-05-17 02:26:22 UTC |
++----+------------+-----------+---------+-------------------------+-------------------------+
+1 row in set
+irb(main):017:0> Ninja.create(first_name:"Joe", last_name:"Jones", dojo:Dojo.third)
+  Dojo Load (0.0ms)  SELECT  "dojos".* FROM "dojos" ORDER BY "dojos"."id" ASC LIMIT ? OFFSET ?  [["LIMIT", 1], ["OFFSET", 2]]
+   (0.0ms)  begin transaction
+  SQL (2.0ms)  INSERT INTO "ninjas" ("first_name", "last_name", "dojo_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["first_name", "Joe"], ["last_name", "Jones"], ["dojo_id", 6], ["created_at", "2017-05-17 02:26:28.683341"], ["updated_at", "2017-05-17 02:26:28.683341"]]
+   (66.6ms)  commit transaction
++----+------------+-----------+---------+-------------------------+-------------------------+
+| id | first_name | last_name | dojo_id | created_at              | updated_at              |
++----+------------+-----------+---------+-------------------------+-------------------------+
+| 9  | Joe        | Jones     | 6       | 2017-05-17 02:26:28 UTC | 2017-05-17 02:26:28 UTC |
++----+------------+-----------+---------+-------------------------+-------------------------+
+1 row in set
+irb(main):018:0> Ninja.all
+  Ninja Load (0.0ms)  SELECT "ninjas".* FROM "ninjas"
++----+------------+-----------+---------+-------------------------+-------------------------+
+| id | first_name | last_name | dojo_id | created_at              | updated_at              |
++----+------------+-----------+---------+-------------------------+-------------------------+
+| 1  | Steve      | Kaufman   | 4       | 2017-05-17 02:25:16 UTC | 2017-05-17 02:25:16 UTC |
+| 2  | Sammi      | Kaufman   | 4       | 2017-05-17 02:25:32 UTC | 2017-05-17 02:25:32 UTC |
+| 3  | Walter     | Kaufman   | 4       | 2017-05-17 02:25:39 UTC | 2017-05-17 02:25:39 UTC |
+| 4  | Sally      | Smith     | 5       | 2017-05-17 02:25:52 UTC | 2017-05-17 02:25:52 UTC |
+| 5  | Susie      | Smith     | 5       | 2017-05-17 02:25:58 UTC | 2017-05-17 02:25:58 UTC |
+| 6  | Georgie    | Smith     | 5       | 2017-05-17 02:26:04 UTC | 2017-05-17 02:26:04 UTC |
+| 7  | Jill       | Jones     | 6       | 2017-05-17 02:26:16 UTC | 2017-05-17 02:26:16 UTC |
+| 8  | Jack       | Jones     | 6       | 2017-05-17 02:26:22 UTC | 2017-05-17 02:26:22 UTC |
+| 9  | Joe        | Jones     | 6       | 2017-05-17 02:26:28 UTC | 2017-05-17 02:26:28 UTC |
++----+------------+-----------+---------+-------------------------+-------------------------+
+9 rows in set
+irb(main):019:0> Dojo.all
+  Dojo Load (0.0ms)  SELECT "dojos".* FROM "dojos"
++----+----------------------+------------+-------+----------------------+----------------------+
+| id | name                 | city       | state | created_at           | updated_at           |
++----+----------------------+------------+-------+----------------------+----------------------+
+| 4  | CodingDojo Chicago   | Chicago    | IL    | 2017-05-17 02:16:... | 2017-05-17 02:16:... |
+| 5  | CodingDojo Washin... | Washington | DC    | 2017-05-17 02:17:... | 2017-05-17 02:17:... |
+| 6  | CodingDojo Dallas    | Dallas     | TX    | 2017-05-17 02:18:... | 2017-05-17 02:18:... |
++----+----------------------+------------+-------+----------------------+----------------------+
+3 rows in set
+irb(main):020:0> Dojo.first.students
+  Dojo Load (0.0ms)  SELECT  "dojos".* FROM "dojos" ORDER BY "dojos"."id" ASC LIMIT ?  [["LIMIT", 1]]
+NoMethodError: undefined method `students' for #<Dojo:0x71d6e40>
+        from (irb):20
+irb(main):021:0> Dojo.first.ninjas
+  Dojo Load (0.0ms)  SELECT  "dojos".* FROM "dojos" ORDER BY "dojos"."id" ASC LIMIT ?  [["LIMIT", 1]]
+  Ninja Load (0.0ms)  SELECT "ninjas".* FROM "ninjas" WHERE "ninjas"."dojo_id" = ?  [["dojo_id", 4]]
++----+------------+-----------+---------+-------------------------+-------------------------+
+| id | first_name | last_name | dojo_id | created_at              | updated_at              |
++----+------------+-----------+---------+-------------------------+-------------------------+
+| 1  | Steve      | Kaufman   | 4       | 2017-05-17 02:25:16 UTC | 2017-05-17 02:25:16 UTC |
+| 2  | Sammi      | Kaufman   | 4       | 2017-05-17 02:25:32 UTC | 2017-05-17 02:25:32 UTC |
+| 3  | Walter     | Kaufman   | 4       | 2017-05-17 02:25:39 UTC | 2017-05-17 02:25:39 UTC |
++----+------------+-----------+---------+-------------------------+-------------------------+
+3 rows in set
+irb(main):022:0> Dojo.second.ninjas
+  Dojo Load (1.0ms)  SELECT  "dojos".* FROM "dojos" ORDER BY "dojos"."id" ASC LIMIT ? OFFSET ?  [["LIMIT", 1], ["OFFSET", 1]]
+  Ninja Load (0.0ms)  SELECT "ninjas".* FROM "ninjas" WHERE "ninjas"."dojo_id" = ?  [["dojo_id", 5]]
++----+------------+-----------+---------+-------------------------+-------------------------+
+| id | first_name | last_name | dojo_id | created_at              | updated_at              |
++----+------------+-----------+---------+-------------------------+-------------------------+
+| 4  | Sally      | Smith     | 5       | 2017-05-17 02:25:52 UTC | 2017-05-17 02:25:52 UTC |
+| 5  | Susie      | Smith     | 5       | 2017-05-17 02:25:58 UTC | 2017-05-17 02:25:58 UTC |
+| 6  | Georgie    | Smith     | 5       | 2017-05-17 02:26:04 UTC | 2017-05-17 02:26:04 UTC |
++----+------------+-----------+---------+-------------------------+-------------------------+
+3 rows in set
+irb(main):023:0> Dojo.third.ninjas
+  Dojo Load (0.0ms)  SELECT  "dojos".* FROM "dojos" ORDER BY "dojos"."id" ASC LIMIT ? OFFSET ?  [["LIMIT", 1], ["OFFSET", 2]]
+  Ninja Load (0.0ms)  SELECT "ninjas".* FROM "ninjas" WHERE "ninjas"."dojo_id" = ?  [["dojo_id", 6]]
++----+------------+-----------+---------+-------------------------+-------------------------+
+| id | first_name | last_name | dojo_id | created_at              | updated_at              |
++----+------------+-----------+---------+-------------------------+-------------------------+
+| 7  | Jill       | Jones     | 6       | 2017-05-17 02:26:16 UTC | 2017-05-17 02:26:16 UTC |
+| 8  | Jack       | Jones     | 6       | 2017-05-17 02:26:22 UTC | 2017-05-17 02:26:22 UTC |
+| 9  | Joe        | Jones     | 6       | 2017-05-17 02:26:28 UTC | 2017-05-17 02:26:28 UTC |
++----+------------+-----------+---------+-------------------------+-------------------------+
+3 rows in set
+irb(main):024:0> Dojo.second.ninjas.order("created_at DESC").select(:first_name)
+  Dojo Load (0.5ms)  SELECT  "dojos".* FROM "dojos" ORDER BY "dojos"."id" ASC LIMIT ? OFFSET ?  [["LIMIT", 1], ["OFFSET", 1]]
+  Ninja Load (0.5ms)  SELECT "ninjas"."first_name" FROM "ninjas" WHERE "ninjas"."dojo_id" = ? ORDER BY created_at DESC  [["dojo_id", 5]]
++----+------------+
+| id | first_name |
++----+------------+
+|    | Georgie    |
+|    | Susie      |
+|    | Sally      |
++----+------------+
+3 rows in set
+irb(main):025:0> x = Dojo.find(2)
+  Dojo Load (0.5ms)  SELECT  "dojos".* FROM "dojos" WHERE "dojos"."id" = ? LIMIT ?  [["id", 2], ["LIMIT", 1]]
+ActiveRecord::RecordNotFound: Couldn't find Dojo with 'id'=2
+        from (irb):25
+irb(main):026:0> x = Dojo.second
+  Dojo Load (0.0ms)  SELECT  "dojos".* FROM "dojos" ORDER BY "dojos"."id" ASC LIMIT ? OFFSET ?  [["LIMIT", 1], ["OFFSET", 1]]
++----+----------------------+------------+-------+----------------------+----------------------+
+| id | name                 | city       | state | created_at           | updated_at           |
++----+----------------------+------------+-------+----------------------+----------------------+
+| 5  | CodingDojo Washin... | Washington | DC    | 2017-05-17 02:17:... | 2017-05-17 02:17:... |
++----+----------------------+------------+-------+----------------------+----------------------+
+1 row in set
+irb(main):027:0> x.destroy
+   (0.5ms)  begin transaction
+  SQL (1.5ms)  DELETE FROM "dojos" WHERE "dojos"."id" = ?  [["id", 5]]
+   (1.0ms)  rollback transaction
+ActiveRecord::InvalidForeignKey: SQLite3::ConstraintException: FOREIGN KEY constraint failed: DELETE FROM "dojos" WHERE "dojos"."id" = ?
+        from (irb):27
+irb(main):028:0> Dojo.all
+  Dojo Load (0.0ms)  SELECT "dojos".* FROM "dojos"
++----+----------------------+------------+-------+----------------------+----------------------+
+| id | name                 | city       | state | created_at           | updated_at           |
++----+----------------------+------------+-------+----------------------+----------------------+
+| 4  | CodingDojo Chicago   | Chicago    | IL    | 2017-05-17 02:16:... | 2017-05-17 02:16:... |
+| 5  | CodingDojo Washin... | Washington | DC    | 2017-05-17 02:17:... | 2017-05-17 02:17:... |
+| 6  | CodingDojo Dallas    | Dallas     | TX    | 2017-05-17 02:18:... | 2017-05-17 02:18:... |
++----+----------------------+------------+-------+----------------------+----------------------+
+3 rows in set
+irb(main):029:0> Dojo.find(5).destroy
+  Dojo Load (0.0ms)  SELECT  "dojos".* FROM "dojos" WHERE "dojos"."id" = ? LIMIT ?  [["id", 5], ["LIMIT", 1]]
+   (0.0ms)  begin transaction
+  SQL (1.5ms)  DELETE FROM "dojos" WHERE "dojos"."id" = ?  [["id", 5]]
+   (1.0ms)  rollback transaction
+ActiveRecord::InvalidForeignKey: SQLite3::ConstraintException: FOREIGN KEY constraint failed: DELETE FROM "dojos" WHERE "dojos"."id" = ?
+        from (irb):29
+irb(main):030:0> Dojo.all
+  Dojo Load (0.0ms)  SELECT "dojos".* FROM "dojos"
++----+----------------------+------------+-------+----------------------+----------------------+
+| id | name                 | city       | state | created_at           | updated_at           |
++----+----------------------+------------+-------+----------------------+----------------------+
+| 4  | CodingDojo Chicago   | Chicago    | IL    | 2017-05-17 02:16:... | 2017-05-17 02:16:... |
+| 5  | CodingDojo Washin... | Washington | DC    | 2017-05-17 02:17:... | 2017-05-17 02:17:... |
+| 6  | CodingDojo Dallas    | Dallas     | TX    | 2017-05-17 02:18:... | 2017-05-17 02:18:... |
++----+----------------------+------------+-------+----------------------+----------------------+
+3 rows in set
+irb(main):031:0> x=Dojo.find(5)
+  Dojo Load (0.0ms)  SELECT  "dojos".* FROM "dojos" WHERE "dojos"."id" = ? LIMIT ?  [["id", 5], ["LIMIT", 1]]
++----+----------------------+------------+-------+----------------------+----------------------+
+| id | name                 | city       | state | created_at           | updated_at           |
++----+----------------------+------------+-------+----------------------+----------------------+
+| 5  | CodingDojo Washin... | Washington | DC    | 2017-05-17 02:17:... | 2017-05-17 02:17:... |
++----+----------------------+------------+-------+----------------------+----------------------+
+1 row in set
+irb(main):032:0> x.delete
+  SQL (2.4ms)  DELETE FROM "dojos" WHERE "dojos"."id" = ?  [["id", 5]]
+ActiveRecord::InvalidForeignKey: SQLite3::ConstraintException: FOREIGN KEY constraint failed: DELETE FROM "dojos" WHERE "dojos"."id" = ?
+        from (irb):32
+irb(main):033:0> reload!
+Reloading...
+=> true
+irb(main):034:0> x.delete
+  SQL (2.0ms)  DELETE FROM "dojos" WHERE "dojos"."id" = ?  [["id", 5]]
+ActiveRecord::InvalidForeignKey: SQLite3::ConstraintException: FOREIGN KEY constraint failed: DELETE FROM "dojos" WHERE "dojos"."id" = ?
+        from (irb):34
+irb(main):035:0> reload!
+Reloading...
+=> true
+irb(main):036:0> x.delete
+  SQL (2.0ms)  DELETE FROM "dojos" WHERE "dojos"."id" = ?  [["id", 5]]
+ActiveRecord::InvalidForeignKey: SQLite3::ConstraintException: FOREIGN KEY constraint failed: DELETE FROM "dojos" WHERE "dojos"."id" = ?
+        from (irb):36
+irb(main):037:0> exit
+
+C:\Users\Sammi\Desktop\DojoAssignments\Ruby\week_2\dojo_ninjas>rails console
+C:/Users/Sammi/Desktop/DojoAssignments/Ruby/week_2/dojo_ninjas/config/application.rb:19:in `<module:DojoNinjas>': undefined method `around_action' for DojoNinjas:Module (NoMethodError)
+        from C:/Users/Sammi/Desktop/DojoAssignments/Ruby/week_2/dojo_ninjas/config/application.rb:9:in `<top (required)>'
+        from C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/railties-5.1.1/lib/rails/command/actions.rb:15:in `require'
+        from C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/railties-5.1.1/lib/rails/command/actions.rb:15:in `require_application_and_environment!'
+        from C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/railties-5.1.1/lib/rails/commands/console/console_command.rb:84:in `perform'
+        from C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/thor-0.19.4/lib/thor/command.rb:27:in `run'
+        from C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/thor-0.19.4/lib/thor/invocation.rb:126:in `invoke_command'
+        from C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/thor-0.19.4/lib/thor.rb:369:in `dispatch'
+        from C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/railties-5.1.1/lib/rails/command/base.rb:63:in `perform'
+        from C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/railties-5.1.1/lib/rails/command.rb:44:in `invoke'
+        from C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/railties-5.1.1/lib/rails/commands.rb:16:in `<top (required)>'
+        from bin/rails:4:in `require'
+        from bin/rails:4:in `<main>'
+
+C:\Users\Sammi\Desktop\DojoAssignments\Ruby\week_2\dojo_ninjas>rails console
+Loading development environment (Rails 5.1.1)
+irb(main):001:0> Dojo.all
+  Dojo Load (2.0ms)  SELECT  "dojos".* FROM "dojos" LIMIT ?  [["LIMIT", 11]]
+=> #<ActiveRecord::Relation [#<Dojo id: 4, name: "CodingDojo Chicago", city: "Chicago", state: "IL", created_at: "2017-05-17 02:16:23", updated_at: "2017-05-17 02:16:23">, #<Dojo id: 5, name: "CodingDojo Washington D.C.", city: "Washington", state: "DC", created_at: "2017-05-17 02:17:36", updated_at: "2017-05-17 02:17:36">, #<Dojo id: 6, name: "CodingDojo Dallas", city: "Dallas", state: "TX", created_at: "2017-05-17 02:18:03", updated_at: "2017-05-17 02:18:03">]>
+irb(main):002:0> Hirb.enable
+=> true
+irb(main):003:0> Dojo.all
+  Dojo Load (0.0ms)  SELECT "dojos".* FROM "dojos"
++----+----------------------------+------------+-------+-------------------------+-------------------------+
+| id | name                       | city       | state | created_at              | updated_at              |
++----+----------------------------+------------+-------+-------------------------+-------------------------+
+| 4  | CodingDojo Chicago         | Chicago    | IL    | 2017-05-17 02:16:23 UTC | 2017-05-17 02:16:23 UTC |
+| 5  | CodingDojo Washington D.C. | Washington | DC    | 2017-05-17 02:17:36 UTC | 2017-05-17 02:17:36 UTC |
+| 6  | CodingDojo Dallas          | Dallas     | TX    | 2017-05-17 02:18:03 UTC | 2017-05-17 02:18:03 UTC |
++----+----------------------------+------------+-------+-------------------------+-------------------------+
+3 rows in set
+irb(main):004:0> Dojo.find(5)
+  Dojo Load (0.5ms)  SELECT  "dojos".* FROM "dojos" WHERE "dojos"."id" = ? LIMIT ?  [["id", 5], ["LIMIT", 1]]
++----+----------------------------+------------+-------+-------------------------+-------------------------+
+| id | name                       | city       | state | created_at              | updated_at              |
++----+----------------------------+------------+-------+-------------------------+-------------------------+
+| 5  | CodingDojo Washington D.C. | Washington | DC    | 2017-05-17 02:17:36 UTC | 2017-05-17 02:17:36 UTC |
++----+----------------------------+------------+-------+-------------------------+-------------------------+
+1 row in set
+irb(main):005:0> x = Dojo.find(5)
+  Dojo Load (0.5ms)  SELECT  "dojos".* FROM "dojos" WHERE "dojos"."id" = ? LIMIT ?  [["id", 5], ["LIMIT", 1]]
++----+----------------------------+------------+-------+-------------------------+-------------------------+
+| id | name                       | city       | state | created_at              | updated_at              |
++----+----------------------------+------------+-------+-------------------------+-------------------------+
+| 5  | CodingDojo Washington D.C. | Washington | DC    | 2017-05-17 02:17:36 UTC | 2017-05-17 02:17:36 UTC |
++----+----------------------------+------------+-------+-------------------------+-------------------------+
+1 row in set
+irb(main):006:0> x.delete
+  SQL (2.5ms)  DELETE FROM "dojos" WHERE "dojos"."id" = ?  [["id", 5]]
+ActiveRecord::InvalidForeignKey: SQLite3::ConstraintException: FOREIGN KEY constraint failed: DELETE FROM "dojos" WHERE "dojos"."id" = ?
+        from (irb):6
+irb(main):007:0> reload!
+Reloading...
+=> true
+irb(main):008:0> x.delete
+  SQL (2.5ms)  DELETE FROM "dojos" WHERE "dojos"."id" = ?  [["id", 5]]
+ActiveRecord::InvalidForeignKey: SQLite3::ConstraintException: FOREIGN KEY constraint failed: DELETE FROM "dojos" WHERE "dojos"."id" = ?
+        from (irb):8
+irb(main):009:0> exit
+
+C:\Users\Sammi\Desktop\DojoAssignments\Ruby\week_2\dojo_ninjas>rails console
+Loading development environment (Rails 5.1.1)
+irb(main):001:0> x = Dojo.find(5)
+  Dojo Load (0.0ms)  SELECT  "dojos".* FROM "dojos" WHERE "dojos"."id" = ? LIMIT ?  [["id", 5], ["LIMIT", 1]]
+=> #<Dojo id: 5, name: "CodingDojo Washington D.C.", city: "Washington", state: "DC", created_at: "2017-05-17 02:17:36", updated_at: "2017-05-17 02:17:36">
+irb(main):002:0> x.destroy
+   (0.0ms)  begin transaction
+  SQL (1.5ms)  DELETE FROM "ninjas" WHERE "ninjas"."dojo_id" = ?  [["dojo_id", 5]]
+  SQL (0.5ms)  DELETE FROM "dojos" WHERE "dojos"."id" = ?  [["id", 5]]
+   (68.0ms)  commit transaction
+=> #<Dojo id: 5, name: "CodingDojo Washington D.C.", city: "Washington", state: "DC", created_at: "2017-05-17 02:17:36", updated_at: "2017-05-17 02:17:36">
+irb(main):003:0> dojo.all
+NameError: undefined local variable or method `dojo' for main:Object
+        from (irb):3
+irb(main):004:0> Hirb.enable
+=> true
+irb(main):005:0> Dojo.all
+  Dojo Load (0.5ms)  SELECT "dojos".* FROM "dojos"
++----+--------------------+---------+-------+-------------------------+-------------------------+
+| id | name               | city    | state | created_at              | updated_at              |
++----+--------------------+---------+-------+-------------------------+-------------------------+
+| 4  | CodingDojo Chicago | Chicago | IL    | 2017-05-17 02:16:23 UTC | 2017-05-17 02:16:23 UTC |
+| 6  | CodingDojo Dallas  | Dallas  | TX    | 2017-05-17 02:18:03 UTC | 2017-05-17 02:18:03 UTC |
++----+--------------------+---------+-------+-------------------------+-------------------------+
+2 rows in set
+irb(main):006:0>
