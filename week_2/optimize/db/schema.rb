@@ -10,30 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170517230617) do
+ActiveRecord::Schema.define(version: 20170518222844) do
 
-  create_table "attendees", force: :cascade do |t|
+  create_table "players", force: :cascade do |t|
     t.string "name"
-    t.string "[]"
-    t.string "person"
-    t.integer "event_id"
+    t.integer "team_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["event_id"], name: "index_attendees_on_event_id"
+    t.index ["team_id"], name: "index_players_on_team_id"
   end
 
-  create_table "events", force: :cascade do |t|
-    t.integer "person_id"
+  create_table "teams", force: :cascade do |t|
     t.string "name"
-    t.text "description"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["person_id"], name: "index_events_on_person_id"
-  end
-
-  create_table "people", force: :cascade do |t|
-    t.string "name"
-    t.integer "age"
+    t.string "mascot"
+    t.string "stadium"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
